@@ -1,0 +1,81 @@
+:root {
+    --form-color : #e2ab13;
+    --submit-color :#858585e3;
+}
+
+body {
+    background: #0f0f0f;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+     padding: 20px;
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+    border-radius: 10px;
+     background: var(--form-color);
+}
+
+legend {
+    padding-bottom: 20px;
+    font-size: 20px;
+     font-weight: bold;
+     font-family: sans-serif;
+     text-align: center;
+     text-transform: uppercase;
+     color: #0f0f0f;
+}
+
+input:not([type="submit"]) {
+    width: 90%;
+    margin: 0.5vh auto;
+     padding: 1vh;
+    border:none;
+     border-top: 1px solid var(--submit-color);
+     background: var(--form-color);
+    transition: background .8;
+}
+
+input:not([type="submit"]):hover {
+    border:none;
+     background-color: #b3701881;
+    color: #ffffff; 
+}
+
+input:not([type="submit"]):hover::placeholder {
+    border:none;
+    color: #ffffff; 
+    transition: color .7s;
+}
+
+input:not([type="submit"]):focus {
+    outline: none;
+     background-color: #b3701881;
+    color: #ffffff; 
+}
+
+input:not([type="submit"]):focus::placeholder {
+    color: #ffffff; 
+}
+
+input[type="submit"] {
+    padding: 1vh;
+    width: 90%;
+    border: 1px solid #b47118;
+     border-radius: 10px;
+     background-color: var(--submit-color);
+    color :#0f0f0f
+     
+}
+
+.red { 
+    padding-top: 20px;
+    color:red;
+}
+
+.green {
+    padding-top: 20px;
+    color:green;
+}

@@ -1,0 +1,45 @@
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #414141;
+}
+
+.flex-item {
+    flex-grow: 1;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid;
+}
+
+.flex-item:hover {
+    background-color: #9bbe9a;
+    box-shadow: 0px 0px 22px #222222d2;
+}
+
+.flex-item:focus {
+    background-color: #9bbe9a;
+}
+
+.flex-item:hover *, .flex-item:focus * {
+    color: white;
+} 
+
+
+.llave-img {
+    width: 300px;
+}
+
+h2, h3 {
+    margin: 0;
+}
+
+h3 {
+    color: #6d6d6d;
+}
+
+p b {
+    color: yellowgreen;
+}

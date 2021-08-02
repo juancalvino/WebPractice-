@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+}
+
+.formulario {
+    max-width: 700px;
+    margin: auto;
+     padding: 10px;
+    display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+
+    background: #136297; 
+    color: #ffffff;
+    border: solid 1px blue  ;
+
+}
+.formulario__titulo{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.formulario__notas {
+    max-width: 30px;
+    margin-right: 10px;
+     padding: 8px; 
+    text-align: center; 
+}
+
+.formulario__enviar {
+    padding: 8px;
+    text-transform: uppercase;
+}
